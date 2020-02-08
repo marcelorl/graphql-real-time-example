@@ -19,6 +19,7 @@
   "homepage": "https://github.com/marcelorl/graphql-sse-example#readme",
   "dependencies": {
     "apollo-server": "^2.9.16",
+    "express": "^4.17.1",
     "graphql": "^14.6.0",
     "graphql-kafka-subscriptions": "^0.3.0",
     "kafkajs": "^1.12.0"
