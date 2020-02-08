@@ -1,0 +1,29 @@
+{
+  "name": "graphql-sse-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcelorl/graphql-sse-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcelorl/graphql-sse-example/issues"
+  },
+  "homepage": "https://github.com/marcelorl/graphql-sse-example#readme",
+  "dependencies": {
+    "apollo-server": "^2.9.16",
+    "graphql": "^14.6.0",
+    "graphql-kafka-subscriptions": "^0.3.0",
+    "kafkajs": "^1.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
